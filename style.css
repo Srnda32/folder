@@ -1,25 +1,20 @@
 body {
-
+	margin: 0;
 	position: relative;
 	background-repeat: no-repeat;
 	background-origin: content-box;
-
+    background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif);
+	background-size: cover ;
 	background-position: center;
 	display: block;
-	width: 100%;
-
-
-
-
+	min-height: 100vh;
 }
 
 h1 {
+padding-top: 369px;
+text-align: center;
+font-size: 38px;
 
-	color: black;
-	position: center;
-	text-shadow: red;
-	text-align: center;
-	padding-top: 300px;
 }
 
 input {
@@ -36,17 +31,80 @@ h3 {
 	padding-left: 45px;
 }
 
-
 body .kontakt {
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	gap: 20px;
 	width: 100%;
+}
+
+body .problem {
+	width: 30%;
+	position: relative;
+	height: 60px;
+	overflow: hidden;
+}
+
+.kontakt button {
+	margin-left: auto;
+	margin-right: 30px;
+	color: #FFFFFF;
+	background-color: #6c0101;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 18px;
+	padding-right: 18px;
+	text-decoration: underline;
+	font-size: 18px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-radius: 10px;
+	text-align: center;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.kontakt button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.kontakt button span::after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.kontakt button:hover span {
+	padding-right: 25px;
 
 }
 
-body .kontakt.button {
-	margin-left: auto;
-	margin-right: 0;
+.kontakt button:hover span::after {
+	opacity: 1;
+	right: 0;
+}
 
+.problem input {
+	position: relative;
+	font-size: 1.5em;
+	background: linear-gradient(21deg, #424242, #ff0303);
+	text-shadow: #ff0303;
+	padding-top: 10px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-bottom: 10px;
+	display: flex;
+	border-radius: 9999em;
+	font-style: italic;
+	
+}
+.problem {
+margin: auto;
 }
