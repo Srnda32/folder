@@ -1,55 +1,52 @@
+body {
 
+	position: relative;
+	background-repeat: no-repeat;
+	background-origin: content-box;
 
-
- body {
-
-position: relative;
- 	background-repeat: no-repeat;
- 	background-origin: content-box;
-
- 	background-position: center;
- 	display: block;
- 	width: 100%;
+	background-position: center;
+	display: block;
+	width: 100%;
 
 
 
 
- }
+}
 
- h1 {
+h1 {
 
- 	color: black;
- 	position: center;
- 	text-shadow: red;
- 	text-align: center;
- 	padding-top: 300px;
- }
+	color: black;
+	position: center;
+	text-shadow: red;
+	text-align: center;
+	padding-top: 300px;
+}
 
- input {
- 	text-align: center;
- 	margin: auto;
- 	display: block;
- 	padding-left: 150px;
- 	padding-right: 150px;
- 	padding-top: 10px;
- 	padding-bottom: 10px;
- }
+input {
+	text-align: center;
+	margin: auto;
+	display: block;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
- h3 {
- 	padding-left: 45px;
- }
+h3 {
+	padding-left: 45px;
+}
 
 
- body .kontakt {
- 	display: flex;
- 	align-items: center;
- 	gap: 20px;
-width: 100%;
+body .kontakt {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	width: 100%;
 
- }
+}
 
- body .kontakt.button {
+body .kontakt.button {
 	margin-left: auto;
 	margin-right: 0;
 
- }
+}
