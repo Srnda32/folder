@@ -3,18 +3,18 @@ body {
 	position: relative;
 	background-repeat: no-repeat;
 	background-origin: content-box;
-    background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif);
-	background-size: cover ;
+	background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif);
+	background-size: cover;
 	background-position: center;
 	display: block;
 	min-height: 100vh;
 }
 
 h1 {
-padding-top: 369px;
-text-align: center;
-font-size: 38px;
-
+	padding-top: 369px;
+	text-align: center;
+	font-size: 38px;
+	color: #FFFFFF;
 }
 
 input {
@@ -27,16 +27,21 @@ input {
 	padding-bottom: 10px;
 }
 
-h3 {
+h2 {
+	color: #6c0101;
 	padding-left: 45px;
 }
 
-body .kontakt {
+.kontakt {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	gap: 20px;
 	width: 100%;
+	overflow: hidden;
+	background-color: #000000;
+	overflow: hidden;
+
 }
 
 body .problem {
@@ -46,7 +51,7 @@ body .problem {
 	overflow: hidden;
 }
 
-.kontakt button {
+.kontakt .pokusajj {
 	margin-left: auto;
 	margin-right: 30px;
 	color: #FFFFFF;
@@ -65,14 +70,14 @@ body .problem {
 	cursor: pointer;
 }
 
-.kontakt button span {
+.kontakt .pokusajj span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
 }
 
-.kontakt button span::after {
+.kontakt .pokusajj span::after {
 	content: '\00bb';
 	position: absolute;
 	opacity: 0;
@@ -81,12 +86,12 @@ body .problem {
 	transition: 0.5s;
 }
 
-.kontakt button:hover span {
+.kontakt .pokusajj:hover span {
 	padding-right: 25px;
 
 }
 
-.kontakt button:hover span::after {
+.kontakt .pokusajj:hover span::after {
 	opacity: 1;
 	right: 0;
 }
@@ -103,8 +108,29 @@ body .problem {
 	display: flex;
 	border-radius: 9999em;
 	font-style: italic;
-	
+
 }
+
 .problem {
-margin: auto;
+	margin: auto;
 }
+
+.kontakt a {
+	float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.kontakt a:hover {
+
+	color: rgb(0, 102, 255);
+}
+
+.kontakt a.active {
+
+	color: white;
+} 
+
