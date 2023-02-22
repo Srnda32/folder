@@ -15,10 +15,14 @@ Janna = {
     taunt() {
         console.log("And you thought it was just a harmless breeze!")
     },
+    buyDorans() {
+        this.gold = this.gold - 450
+        this.Armor = this.Armor + 50
+    }
 
 }
 Olaf = {
-    gold: 120,
+    gold: 1200,
     name: "Olaf",
     AP: 320,
     AD: 42023,
@@ -32,6 +36,13 @@ Olaf = {
     },
     taunt() {
         console.log("C'mon, I won't hurt you. I promise!")
+    },
+    buyDorans() {
+        this.gold = this.gold - 450
+        this.Armor = this.Armor + 50
+
+        
+        
     }
 }
 
@@ -66,4 +77,14 @@ for (heroj of heroji) {
 
 }
 console.log(rezultat)
+console.log ("Prije kupovine",Olaf.Armor)
+console.log ("Prije kupovine",Olaf.gold)
+console.log ("Prije kupovine", Janna.gold)
+ Olaf.buyDorans()
+ Janna.buyDorans()
+ console.log (Olaf.Armor)
+ console.log (Olaf.gold)
+ console.log (Janna.gold)
+ 
+ 
 
