@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-	
+
 	text-align: center;
 	font-size: 38px;
 	color: #FFFFFF;
@@ -21,8 +21,7 @@ input {
 	text-align: center;
 	margin: auto;
 	display: block;
-	padding-left: 150px;
-	padding-right: 150px;
+	width: 300px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -102,8 +101,6 @@ body .problem {
 	background: linear-gradient(21deg, #424242, #ff0303);
 	text-shadow: #ff0303;
 	padding-top: 10px;
-	padding-left: 90px;
-	padding-right: 90px;
 	padding-bottom: 10px;
 	display: flex;
 	border-radius: 9999em;
@@ -117,11 +114,11 @@ body .problem {
 
 .kontakt a {
 	float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .kontakt a:hover {
@@ -132,9 +129,25 @@ body .problem {
 .kontakt a.active {
 
 	color: rgb(155, 42, 211);
-} 
-.elementi{
-	font-size: 30px;
-  padding-top: 369px;
+}
+
+.elementi {
+
+	padding-top: 369px;
 	text-align: center;
+}
+
+.forme {
+	display: flex;
+	color: white;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+.forme label {
+	text-align: center;
+}
+
+.forme .dugme {
+	margin: 1rem auto;
 }
